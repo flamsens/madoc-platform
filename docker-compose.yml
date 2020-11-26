@@ -219,7 +219,9 @@ services:
       - ./var/files/storage-api:/home/node/app/files
 
   search:
-    image: digirati/madoc-search:latest
+#    image: digirati/madoc-search:latest
+    build:
+      context: services/search
     environment:
       - BROWSABLE=False
       - USE_DOCKER=yes
