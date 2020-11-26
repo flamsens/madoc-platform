@@ -10,6 +10,7 @@ module.exports = {
           'src/uxpin-merge/01-atoms/AdminHeader/AdminHeader.tsx',
           'src/uxpin-merge/01-atoms/Mirador/Mirador.tsx',
           'src/uxpin-merge/01-atoms/StandardButton/StandardButton.tsx',
+          'src/uxpin-merge/01-atoms/DemoButton/DemoButton.tsx',
         ],
       },
     ],
